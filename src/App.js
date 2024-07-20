@@ -18,10 +18,11 @@ function App() {
      <Router>
       <ScrollToTop/>
         <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/projects" element={<Projects />}/>
-          <Route path="/project" element={<ProjectItem />}/>
+          <Route path="/project/:id" element={<ProjectItem />}/>
           <Route path="/contacts" element={<Contacts />}/>
         </Routes>
         <Footer />
