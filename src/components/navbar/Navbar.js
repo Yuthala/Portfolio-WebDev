@@ -17,6 +17,7 @@ const Navbar = () => {
 
 					<BtnDarkMode />
 
+					{/* //переключение класса активности для активного пункта меню */}
 					<ul className="nav-list">
 						<li className="nav-list__item">
 							<NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
