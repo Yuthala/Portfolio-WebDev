@@ -1,3 +1,5 @@
+//компонент для отдельных проектов
+
 import { NavLink } from 'react-router-dom';
 import './style.css';
 
